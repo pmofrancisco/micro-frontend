@@ -11,7 +11,7 @@ module.exports = {
       name: 'account',
       filename: 'remoteEntry.js',
       exposes: {
-        './AccountIndex': './src/index'
+        './AccountIndex': './src/bootstrap'
       }
     }),
     new HtmlWebpackPlugin({
