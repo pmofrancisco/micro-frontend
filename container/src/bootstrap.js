@@ -1,3 +1,3 @@
-import 'account/AccountIndex';
+import { mount } from 'account/AccountIndex';
 
-console.log('Container!');
+mount(document.querySelector('#my-account'));
